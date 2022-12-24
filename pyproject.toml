@@ -14,8 +14,4 @@ classifiers = [
     "Topic :: Education",
 ]
 requires-python = ">=3.8"
-dependencies = []
-
-[project.optional-dependencies]
-dev  = ["black", "bump2version", "flake8", "flit", "interrogate", "isort", "mypy"]
-test = ["black", "interrogate", "pytest", "pytest-cov", "tox"]
+dependencies = ['codetiming']
