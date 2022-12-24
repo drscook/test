@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "test_pkg"
 version = "0.0.1"
 #dependencies = ['codetiming', 'shutils', 'git@github.com:drscook/helpers.git']
-dependencies = ['codetiming', 'shutils', 'https://github.com/drscook/helpers']
+dependencies = ['codetiming', 'shutils']#, 'https://github.com/drscook/helpers']
 authors = [
   { name="Scott Cook", email="scook@tarleton.edu" },
 ]
