@@ -12,6 +12,6 @@ description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
     #"helpers_drscook",
-    "https://github.com/drscook/test_drscook",
+    "https://github.com/drscook/helpers_drscook",
     #"my_local_package @ {root:uri}/my_local_package",
 ]
