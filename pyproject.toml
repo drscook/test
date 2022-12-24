@@ -7,10 +7,14 @@ allow-direct-references = true
 
 [project]
 name = "test_drscook"
-version = "0.1.0"
+version = "1.0.0"
+#dynamic = ["version"]
 description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
     #"helpers-drscook@git+https://github.com/drscook/helpers",
     "REU_temp@git+https://github.com/drscook/REU_temp",
 ]
+
+#[tool.hatch.version]
+#path = "pkg/__about__.py"
