@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "test_drscook"
 version = "0.1.0"
-dependencies = ['codetiming', 'shutils', 'git+https://github.com/drscook/helpers']
+dependencies = ['codetiming', 'shutils', 'git@https://github.com/drscook/helpers']
 #dependencies = ['codetiming', 'shutils', 'helpers_drscook']
 authors = [{ name="Scott Cook", email="scook@tarleton.edu" }]
 license = { file = "LICENSE" }
