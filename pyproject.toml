@@ -11,5 +11,6 @@ version = "0.1.0"
 description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
-    "helpers-drscook@git+https://github.com/drscook/helpers",
+    #"helpers-drscook@git+https://github.com/drscook/helpers",
+    "REU_temp@git+https://github.com/drscook/REU_temp",
 ]
