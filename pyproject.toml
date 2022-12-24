@@ -10,6 +10,7 @@ name = "test_drscook"
 version = "0.1.0"
 description = "A Demo for my stackoverflow question"
 dependencies = [
-    "codetiming"
+    "codetiming",
+    "helpers_drscook",
     #"my_local_package @ {root:uri}/my_local_package",
 ]
