@@ -4,12 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "test_drscook"
-version = "0.0.1"
+version = "0.1.0"
 #dependencies = ['codetiming', 'shutils', 'git@github.com:drscook/helpers.git']
-dependencies = ['codetiming', 'shutils']#, 'https://github.com/drscook/helpers']
-authors = [
-  { name="Scott Cook", email="scook@tarleton.edu" },
-]
+#dependencies = ['codetiming', 'shutils']#, 'https://github.com/drscook/helpers']
+authors = [{ name="Scott Cook", email="scook@tarleton.edu" }]
+license = { file = "LICENSE" }
 description = "test_drscook"
 readme = "README.md"
 requires-python = ">=3.8"
