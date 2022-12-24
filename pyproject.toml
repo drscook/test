@@ -11,6 +11,7 @@ version = "0.1.0"
 description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
-    "helpers_drscook",
+    #"helpers_drscook",
+    "https://github.com/drscook/test_drscook",
     #"my_local_package @ {root:uri}/my_local_package",
 ]
