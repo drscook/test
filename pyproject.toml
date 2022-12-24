@@ -2,16 +2,14 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [project]
 name = "test_drscook"
-authors = [
-    {name = "Thomas Kluyver", email = "thomas@kluyver.me.uk"},
+version = "0.1.0"
+description = "A Demo for my stackoverflow question"
+dependencies = [
+    "codetiming"
+    #"my_local_package @ {root:uri}/my_local_package",
 ]
-readme = "README.md"
-classifiers = [
-    "License :: OSI Approved :: MIT License",
-]
-requires-python = ">=3.8"
-dependencies = ["codetiming"]
-dynamic = ["version", "description"]
