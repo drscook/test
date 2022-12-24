@@ -12,7 +12,7 @@ description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
     #"helpers-drscook@git+https://github.com/drscook/helpers",
-    "REU_temp@git+https://github.com/drscook/REU_temp",
+    "test_drscook2@git+https://github.com/drscook/test_drscook2",
 ]
 
 [tool.hatch.version]
