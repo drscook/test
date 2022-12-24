@@ -1,0 +1,11 @@
+[project]
+name = "test_drscook"
+authors = [
+    {name = "Thomas Kluyver", email = "thomas@kluyver.me.uk"},
+]
+readme = "README.mdt"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.5"
+dynamic = ["version", "description"]
