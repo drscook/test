@@ -1,12 +1,12 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
 
 [project]
 name = "test_drscook"
 version = "0.1.0"
 #dependencies = ['codetiming', 'shutils', 'git@github.com:drscook/helpers.git']
-dependencies = ['codetiming', 'shutils', 'helpers_drscook']
+dependencies = ['codetiming', 'shutils']#, 'helpers_drscook']
 authors = [{ name="Scott Cook", email="scook@tarleton.edu" }]
 license = { file = "LICENSE" }
 description = "test_drscook"
