@@ -7,8 +7,7 @@ allow-direct-references = true
 
 [project]
 name = "test_drscook"
-version = "1.0.0"
-#dynamic = ["version"]
+dynamic = ["version"]
 description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
