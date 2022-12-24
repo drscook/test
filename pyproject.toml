@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "example_package_YOUR_USERNAME_HERE"
 version = "0.0.1"
-dependencies = ['codetiming', 'shutils']
+dependencies = ['codetiming', 'shutils', 'helpers_drscook']
 authors = [
   { name="Example Author", email="author@example.com" },
 ]
