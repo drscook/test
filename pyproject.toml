@@ -16,5 +16,5 @@ dependencies = [
     "REU_temp@git+https://github.com/drscook/REU_temp",
 ]
 
-#[tool.hatch.version]
-#path = "pkg/__about__.py"
+[tool.hatch.version]
+path = "test_drscook/__about__.py"
