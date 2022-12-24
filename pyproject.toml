@@ -10,7 +10,7 @@ dependencies = ['codetiming', 'shutils']#, 'https://github.com/drscook/helpers']
 authors = [
   { name="Scott Cook", email="scook@tarleton.edu" },
 ]
-description = "test_pkg"
+description = "test_drscook"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
