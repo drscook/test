@@ -12,5 +12,6 @@ description = "A Demo for my stackoverflow question"
 dependencies = [
     "codetiming",
     #"helpers-drscook@git+https://github.com/drscook/helpers",
-    "REU_temp@git+https://github.com/drscook/REU_temp",
+    #"REU_temp@git+https://github.com/drscook/REU_temp",
+    "git+https://github.com/drscook/REU_temp",
 ]
