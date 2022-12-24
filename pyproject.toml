@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "test_drscook"
 version = "0.1.0"
 #dependencies = ['codetiming', 'shutils', 'git@github.com:drscook/helpers.git']
-dependencies = ['codetiming', 'shutils', 'https://github.com/drscook/helpers.git']
+dependencies = ['codetiming', 'shutils', 'helpers_drscook']
 authors = [{ name="Scott Cook", email="scook@tarleton.edu" }]
 license = { file = "LICENSE" }
 description = "test_drscook"
