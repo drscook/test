@@ -17,5 +17,3 @@ dependencies = [
 
 [tool.hatch.version]
 path = "test_drscook/__about__.py"
-
-# hi
